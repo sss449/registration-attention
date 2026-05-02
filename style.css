@@ -108,3 +108,15 @@
   margin: 0; 
   flex-shrink: 0;
 }
+
+#getCodeBtn {
+  background-color: #000000; 
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#getCodeBtn:disabled {
+  background-color: #ccc;   
+  cursor: not-allowed;      
+  opacity: 0.6;
+}
